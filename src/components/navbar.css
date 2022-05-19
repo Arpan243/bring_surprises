@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  /* navigation bar start */
+.logo {
+    height: 15%;
+    width: 15%;
+    border-radius: 100px;
+    justify-content: flex-start;
+  }
+  
+  .box1 {
+    margin-right: 10px;
+    width: 8%;
+    height: 38px;
+    top: 56px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    background: rgb(154, 196, 252);
+    border-radius: 50px;
+    border: 0px solid white;
+    cursor: pointer;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    justify-content: flex-end;
+  }
+  
+  .box1:hover {
+    color: #ffffff;
+    background-color: #ce0064;
+  }
+  
+  @media ( max-width:1205px ) {
+    .box1 {
+        height: 30px;
+        width: 90px;
+        font-size: 10px;
+    }
+  }
+  
+  .box2 {
+    margin-right: 10px;
+    width: 10%;
+    height: 38px;
+    top: 56px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    background: rgb(154, 196, 252);
+    border: 0px solid white;
+    cursor: pointer;
+    color: #020202;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 50px;
+  }
+  
+  .box2:hover {
+    color: #ffffff;
+    background-color: #ce0064;
+  
+  }
+  
+  @media ( max-width:1205px ) {
+    .box2 {
+        height: 30px;
+        width: 100px;
+        font-size: 10px;
+    }
+  }
+  
+  .box3 {
+    margin-right: 0px;
+    width: 11%;
+    height: 38px;
+    top: 56px;
+    left: 0px;
+    right: 0px;
+    z-index: 2;
+    background:rgb(154, 196, 252);
+    border: 0px solid white;
+    cursor: pointer;
+    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    border-radius: 50px;
+  }
+  
+  .box3:hover {
+    color: #ffffff;
+    background-color: #ce0064;
+  
+  }
+  
+  @media ( max-width:1205px ) {
+    .box3 {
+        height: 30px;
+        width: 110px;
+        font-size: 10px;
+    }
+  }
+  
+  .gap{
+    width: 70%;
+  }
+  
+  @media (max-width: 545px) {
+    .gap{
+        width: 40%;
+    }
+    .box2{
+        width: 120px;
+    }
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px;
+  }
+  /* navigation bar end */
+  

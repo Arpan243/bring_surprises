@@ -1,0 +1,18 @@
+.body{
+    background-image: url('./1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 96%;
+  height: 60vh;
+  margin-left: 2%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+Typewriter{
+    font-weight: 700;
+     color: "white";
+     font-size: larger; 
+    
+}

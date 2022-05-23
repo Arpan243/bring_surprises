@@ -1,24 +1,29 @@
-import React from 'react'
-import "./navbar.css"
+import React from "react";
+import "./navbar.css";
 import logo from "./logo.png";
+// import {NavLink as Link} from 'react-router-dom';
 
 const navbar = () => {
   return (
-    <header >
-    <img src={logo} className="logo" alt='logo' />
-    <div className="gap"></div>
+    <header>
+      <img src={logo} className="logo" alt="logo" />
+      <div className="gap"></div>
 
-    <button onclick="window.location.href ='https://www.google.com/'" className="box1">
-      About Us
-    </button>
-    <button onclick="window.location.href = 'https://www.google.com/'" className="box2">
-      Our Services
-    </button>
-    <button onclick="window.location.href = 'https://www.google.com/'" className="box3">
-      Image Gallery
-    </button>
-  </header>
-  )
-}
+      <a href="https://www.google.com/" className="box1">
+        About Us
+      </a>
 
-export default navbar
+      <a href="https://www.google.com/" className="box2">
+        Our Services
+      </a>
+
+      <a href="https://www.google.com/" className="box3">
+
+          Image Gallery
+        
+      </a>
+    </header>
+  );
+};
+
+export default navbar;

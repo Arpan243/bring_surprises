@@ -1,0 +1,91 @@
+.gd {
+    justify-content: center;
+    margin: auto;
+    color: #ffffff;
+  }
+  
+  
+  .plan{
+    height: 50%;
+    padding-left: 3vh;
+    padding-right: 3vh ;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    margin-top: 5vh;
+    border-radius: 10px;
+    background-color: #FCD6E4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .space1{
+    height: 8px;
+  }
+  .plan span{
+    font-size: 20px;
+    font-weight: 300;
+    margin-left: 43%;
+    color: #FF1A70;
+    margin-top: 7px ;
+  }
+  .sur{
+    font-size: 20px;
+    font-weight: 300;
+    color: #FF1A70;
+    margin-top: 7px ;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .divison{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 5%;
+  }
+  @media ( max-width:380px ) {
+    .divison {
+        flex-direction: column;
+    }
+    .space2{
+      margin: 2%;
+    }
+    .him{
+      height: 20%;
+      width: 50%;
+    }
+    .her{
+      height: 20%;
+      width: 50%;
+    }
+  }
+  .divison a{
+    margin: 35px;
+    font-size: 40px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+  }
+  .space2{
+    width: 4%;
+  }
+  .him{
+    background: linear-gradient(89.77deg, #FF8DB8 1.73%, #F54185 50.95%, #FF1A70 99.8%);
+    width: 90%;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+  .her{
+    background: linear-gradient(269.59deg, #8FCAFF 0.36%, #4763F4 53.34%, #1D35B0 102.95%);
+    width: 90%;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }

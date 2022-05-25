@@ -1,16 +1,10 @@
-import Navbar from "./components/navbar";
-import Textslider from "./components/Textslider";
-import Choice from "./components/Choice";
-import {Route, Switch, Redirect} from 'react-router-dom';
-import Cards from "./components/Cards";
+import Home from "./Home";
+import { Route, Switch } from "react-router-dom";
 function App() {
   return (
     <>
-    <Navbar/>
-    <Textslider></Textslider>
-    <Choice/>
-    <Cards></Cards>
-      </>
+    <Home/>
+    </>
   );
 }
 

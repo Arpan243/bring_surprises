@@ -1,7 +1,8 @@
-import React from "react";
+import React from 'react'
 import "./Card.css";
+import { Link } from 'react-router-dom';
 
-function card(props) {
+export const Card = (props) => {
   return (
     <>
       {/* <!--image row start--> */}
@@ -15,9 +16,10 @@ function card(props) {
             </h2>
             <p>{props.details}</p>
             <div className="more">
-              <a href={props.link} className="read-more">
+              {/* <a href={props.link} className="read-more">
                 Read <span>More</span>
-              </a>
+              </a> */}
+              <Link to={props.link} className="read-more">Read <span>More</span></Link>
             </div>
           </div>
         </div>
@@ -25,7 +27,5 @@ function card(props) {
       </div>
       {/* <!--image row end--></> */}
     </>
-  );
+  )
 }
-
-export default card;

@@ -1,9 +1,10 @@
+import React from "react";
 
 
-const navbar = () => {
+function card(props) {
   return (
     
   );
-};
+}
 
-export default navbar;
+export default card;

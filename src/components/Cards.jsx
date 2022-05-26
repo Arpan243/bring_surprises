@@ -1,5 +1,5 @@
 import React from "react";
-import Card from "./Card";
+import {Card} from "./Card";
 import "./Cards.css";
 import data from "./data";
 // import HandMadeGifts from "../Screens/HandMadeGifts";

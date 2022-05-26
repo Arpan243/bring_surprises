@@ -5,7 +5,7 @@ import "./Textslider.css";
 const Textslider = () => {
   return (
     <>
-      <div className="body">
+      <div className="body" data-aos="fade-right">
         <span className="text">
           {/* Style will be inherited from the parent element */}
           <Typewriter

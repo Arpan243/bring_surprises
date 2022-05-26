@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./Card";
 import "./Cards.css";
 import data from "./data";
+import HandMadeGifts from "./HandMadeGifts";
 
 function sec1card(val) {
   return (

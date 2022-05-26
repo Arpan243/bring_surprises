@@ -5,7 +5,7 @@ function card(props)  {
   return (
     <>
     {/* <!--image row start--> */}
-    <div className="row">
+    <div className="row" data-aos="fade-right">
       {/* <!--image card start--> */}
       <div className="image" >
         <img src={props.imgsrc} alt=""/>

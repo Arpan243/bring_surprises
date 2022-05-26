@@ -5,7 +5,7 @@ import logo from "./logo.png";
 
 const navbar = () => {
   return (
-    <header>
+    <header data-aos="fade-right">
       <img src={logo} className="logo" alt="logo" />
       <div className="gap"></div>
 

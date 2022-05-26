@@ -2,7 +2,7 @@ import hmg from "./hmg.png";
 import g from "./g.png";
 import a from "./a.png";
 import cdld from "./cdld.png";
-import HandMadeGifts from "./HandMadeGifts";
+// import HandMadeGifts from "../Screens/HandMadeGifts";
 
 const data = [
   {

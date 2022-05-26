@@ -18,9 +18,7 @@ const navbar = () => {
       </a>
 
       <a href="https://www.google.com/" className="box3">
-
-          Image Gallery
-        
+        Image Gallery
       </a>
     </header>
   );

@@ -33,5 +33,6 @@ const data = [
       " Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut, esse.",
     link: "https://google.com",
   },
+  
 ];
 export default data;
